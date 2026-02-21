@@ -6,49 +6,39 @@
 ![Live](https://img.shields.io/badge/Live-TechHelpFL.com-brightgreen?style=flat-square)
 ![Repo](https://img.shields.io/badge/Source-Private-orange?style=flat-square)
 
-**A conversion-focused landing page for a Central Florida tech services business.** Designed to rank on Google, automate lead follow-up, and convert visitors into booked consultations.
+**I built and launched a real business website that ranks on Google and converts visitors into booked consultations.** Not a portfolio project — this is a live business generating leads in Central Florida.
 
-🌐 **Live at [TechHelpFL.com](https://techhelpfl.com)**
+🌐 **[TechHelpFL.com](https://techhelpfl.com)**
 
 ---
 
-## Features
+## What I Built
 
-- **SEO-Optimized Single Page** — Structured for local search ranking with semantic HTML and optimized metadata
-- **Dual CTAs** — Free audit offer + click-to-call for immediate conversion
-- **Service Showcase** — Service cards with clear value propositions
-- **Social Proof** — Testimonials, trust signals, and credibility sections
-- **FAQ Section** — Addresses common objections and boosts SEO
-- **Contact Integration** — Contact form + Calendly booking link
-- **Responsive Design** — Mobile-first with clean breakpoints
+### Conversion-Optimized Single Page
+Every section is designed to move visitors toward booking:
+- **Hero** with dual CTAs — free audit offer + click-to-call for immediate conversion
+- **Problem/Solution** — addresses specific pain points local businesses face
+- **Services** — SEO, automation, and lead generation with clear value propositions
+- **Process** — step-by-step breakdown so prospects know exactly what to expect
+- **Social Proof** — results and testimonials that build trust
+- **FAQ** — handles objections before they become reasons not to call
+- **Contact** — form + Calendly integration for frictionless booking
 
-## Page Sections
+### SEO-First Architecture
+- Semantic HTML structure optimized for local search ranking
+- Optimized metadata, Open Graph tags, and structured data
+- Server-side rendering via Next.js for fast initial loads and crawlability
+- Mobile-first responsive design (Google ranks mobile experience)
 
-1. **Hero** — Headline, dual CTAs (free audit + call)
-2. **Problem/Solution** — Pain points and how the service solves them
-3. **Services** — SEO, automation, and lead generation offerings
-4. **Process** — Step-by-step of how the engagement works
-5. **Social Proof** — Client results and testimonials
-6. **About** — Credibility and background
-7. **FAQ** — Common questions and answers
-8. **Contact** — Form + Calendly integration
+### Content-Driven Design
+- All copy lives in a single `content.ts` file — update messaging without touching components
+- Makes A/B testing copy changes trivial
+- Clean separation between design and content
 
 ## Tech Stack
 
-- **Framework:** Next.js 15, TypeScript
-- **Styling:** Tailwind CSS
-- **Content:** Data-driven from `content.ts` (easy to update)
-- **Fonts:** Custom loaded via `next/font`
-- **Deployment:** Vercel
-
-## Skills Demonstrated
-
-- SEO-focused web development for local businesses
-- Conversion rate optimization (CRO) principles
-- Content-driven architecture (all copy configurable via data file)
-- Mobile-first responsive design
-- Production deployment and domain management
+`Next.js 15` · `TypeScript` · `Tailwind CSS` · `next/font` · `Vercel`
 
 ---
 
-> *This is a showcase page for a private repository. Visit [TechHelpFL.com](https://techhelpfl.com) to see it live.*
+> *Closed source. Visit [TechHelpFL.com](https://techhelpfl.com) to see it live.*
